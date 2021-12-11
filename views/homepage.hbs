@@ -1,0 +1,6 @@
+<div id="flashcarddecks">
+  <h2 id="flash">Flashcard Decks</h2>
+  {{#each topics}}
+  <a type="button" class="btn btn-success" href='/topic/{{this.dataValues.id}}'>{{this.dataValues.topic}}</a>
+  {{/each}}
+</div>

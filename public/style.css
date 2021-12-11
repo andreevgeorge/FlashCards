@@ -1,0 +1,41 @@
+#qwestion{
+  visibility: hidden;
+}
+
+#statistics{
+  visibility: hidden;
+  font-size: 27px;
+}
+
+#header1 {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+
+}
+
+#flashcarddecks {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+#flash {
+  margin-bottom: 50px;
+}
+
+#questionpage {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+#but{
+  margin-top: 10px;
+}
+
+body {
+  background-image: url(riddler_hd__wallpaper_by_jesterman_d8yt9d3-fullview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

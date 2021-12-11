@@ -1,0 +1,22 @@
+<h1>Страница профиля</h1>
+{{#if userName}}
+<h3>{{userName}}</h3>
+{{/if}}
+
+{{#if usersRounds}}
+{{#each usersRounds}}  
+  <p>Тема: {{this.deck}}</p>
+  <table border = '1'>
+    <tr>
+    <th>Дата: </th>
+    <th>Угадано с первого раза: </th>
+    <th>Всего очков: </th>
+    </tr>
+    <tr>
+    <td>{{this.date}}</td>
+    <td>{{this.firstGuessPoints}}</td>
+    <td>{{this.points}}</td>
+    </tr>
+  </table>
+  {{/each}}
+{{/if}}
